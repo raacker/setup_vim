@@ -22,10 +22,7 @@ this project includes **.vim, .vimrc, .themes**
 
 This script follow these commands
 
-apt-get install git
-apt-get install g++
-apt-get install vim
-apt-get install ctags
+apt-get install g++ vim ctags
 
 mv ./.vim ./.vimrc ./themes ~/
 
