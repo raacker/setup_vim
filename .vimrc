@@ -1,7 +1,3 @@
-"Resource from ->
-"luckyyowu.tistory.com/308
-"https://dobest.io/install-vundle-and-nerdtree/
-
 set nocompatible
 " set the runtime path to include Vundle and initialize
 
@@ -16,14 +12,12 @@ Plugin 'gmarik/Vundle.vim'
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
 " plugin on GitHub repo
-
 Plugin 'tpope/vim-fugitive'
 
 "plugin from http://vim-scripts.org/vim/scripts.html
 Plugin 'L9'
 
 " Git plugin not hosted on GitHub
-
 Plugin 'git://git.wincent.com/command-t.git'
 
 " git repos on your local machine (i.e. when working on your own plugin)
@@ -55,9 +49,7 @@ Plugin 'AutoComplPop'
 
 Plugin 'taglist-plus'
 
-Plugin 'cvim'
 " NERD Tree를 왼쪽에 생성
-
 let NERDTreeWinPos = "left"
 " NERD Tree는 F7키. Tag List는 F8키에 매칭.
 
