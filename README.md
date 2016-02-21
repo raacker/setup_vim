@@ -39,7 +39,7 @@ scons : SConstructor is python script program that substitute make.</br>
 			and only left thing to do is enter scons command.</br>
 
 <h1>Usage</h1>
-In NERD Tree, you can open files besides of other vim.</br>
+*In NERD Tree, you can open files besides of other vim.*</br>
 **i**: open in bottom side(vertical way)</br>
 **s** : open in right side(horizontal way)</br>
 
