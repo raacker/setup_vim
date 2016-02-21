@@ -33,6 +33,11 @@ vim +PluginInstall +qall
 <h1>Details</h1>
 NERD Tree is mapped on F7 and taglist is on F8
 
+scons : SConstructor is python script program that substitute make.
+		ex) if making a cpp builder, vi SConstructor and put these words
+			Program('execute file name', Glob('*.cpp'), CCFLAGS='-g -std=c++11')
+			and only left thing to do is enter scons command.
+
 <h1>Usage</h1>
 In NERD Tree, you can open files besides of other vim.
 **i**: open in bottom side(vertical way)
