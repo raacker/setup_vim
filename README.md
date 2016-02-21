@@ -2,7 +2,7 @@
 
 This is own linux setting of Linuxmint 17.3 cinnamon. 
 
-this project includes **.vim, .vimrc, .themes**
+This repository includes **.vim, .vimrc, .themes**
 
 <h1>Plugins</h1>
 
@@ -20,9 +20,9 @@ this project includes **.vim, .vimrc, .themes**
 
 **Run** run.sh with sudo.
 
-This script follow these commands
+This script follows these commands
 
-apt-get install g++ vim ctags
+apt-get install g++ vim ctags scons
 
 mv ./.vim ./.vimrc ./themes ~/
 
@@ -30,6 +30,14 @@ git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 vim +PluginInstall +qall
 
+<h1>Details</h1>
+NERD Tree is mapped on F7 and taglist is on F8
+
+<h1>Usage</h1>
+In NERD Tree, you can open files besides of other vim.
+**i**: open in bottom side(vertical way)
+**s** : open in right side(horizontal way)
+
 <h1>Resource from</h1>
-luckyyowu.tistory.com/308
-https://dobest.io/install-vundle-and-nerdtree/
+https://luckyyowu.tistory.com/308</br>
+https://dobest.io/install-vundle-and-nerdtree</br>

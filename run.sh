@@ -1,9 +1,6 @@
 #!/bin/bash
 
-apt-get install g++
-apt-get install vim
-apt-get install ctags
-apt-get install scons
+apt-get install g++ vim ctags scons
 
 mv ./.vim ./.vimrc ./.themes ~/
 
