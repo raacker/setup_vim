@@ -3,6 +3,7 @@
 apt-get install g++
 apt-get install vim
 apt-get install ctags
+apt-get install scons
 
 mv ./.vim ./.vimrc ./.themes ~/
 
