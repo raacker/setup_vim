@@ -5,7 +5,7 @@ This is own linux setting of Linuxmint 17.3 cinnamon.
 This repository includes **.vim, .vimrc, .themes**
 
 **Additional** 
- * terminator - change permission of terminator.sh to 700 and run it
+ * terminator - change permission of terminator.sh to 700(chmod 700 terminator.sh) and run it
 
 <h1>Plugins</h1>
 
@@ -21,7 +21,7 @@ This repository includes **.vim, .vimrc, .themes**
 
 <h1>Works</h1>
 
-First, change permission of run.sh to 700(only available for user)</br>
+First, change permission of run.sh to 700(only available for user) by chmod 700 run.sh</br>
 and **Run** run.sh with sudo.
 
 This script follows these commands
