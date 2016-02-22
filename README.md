@@ -47,8 +47,9 @@ scons : SConstructor is python script program that substitute make.</br>
 
 terminator : Best terminal ever. I mapped keys to dconf files</br>
  * Ctrl + Shift + s : open new terminator window
- * Ctrl + Shift + i : close terminator window
-all these keybindings also availiable on terminator not only on desktop
+ * Ctrl + Shift + i : close terminator window</br>
+
+	all these keybindings also availiable on terminator not only on desktop
 
 <h1>Usage</h1>
 *In NERD Tree, you can open files besides of other vim.*</br>
