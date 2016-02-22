@@ -4,6 +4,9 @@ This is own linux setting of Linuxmint 17.3 cinnamon.
 
 This repository includes **.vim, .vimrc, .themes**
 
+**Additional** 
+ * terminator - change permission of terminator.sh to 700 and run it
+
 <h1>Plugins</h1>
 
 * gmarik/Vundle.vim
