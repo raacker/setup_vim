@@ -18,11 +18,15 @@ This repository includes **.vim, .vimrc, .themes**
 
 <h1>Works</h1>
 
-**Run** run.sh with sudo.
+First, change permission of run.sh to 700(only available for user)</br>
+and **Run** run.sh with sudo.
 
 This script follows these commands
 
-apt-get install g++ vim ctags scons
+apt-get install vim
+apt-get install scons
+apt-get install exuberant-ctags
+apt-get install g++
 
 mv ./.vim ./.vimrc ./themes ~/
 

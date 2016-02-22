@@ -1,6 +1,9 @@
 #!/bin/bash
 
-apt-get install vim ctags scons g++
+apt-get install vim
+apt-get install scons 
+apt-get install exuberant-ctags
+apt-get install g++
 
 mv ./.vim ./.vimrc ./.themes ~/
 
