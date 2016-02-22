@@ -45,6 +45,11 @@ scons : SConstructor is python script program that substitute make.</br>
 			Program('execute file name', Glob('*.cpp'), CCFLAGS='-g -std=c++11')</br>
 			and only left thing to do is enter scons command.</br>
 
+terminator : Best terminal ever. I mapped keys to dconf files</br>
+ * Ctrl + Shift + s : open new terminator window
+ * Ctrl + Shift + i : close terminator window
+all these keybindings also availiable on terminator not only on desktop
+
 <h1>Usage</h1>
 *In NERD Tree, you can open files besides of other vim.*</br>
 **i**: open in bottom side(vertical way)</br>
