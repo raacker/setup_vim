@@ -3,8 +3,7 @@
   close_term = <Primary><Shift>i
   new_window = <Primary><Shift>s
 [profiles]
-  [[default]]
-    background_image = ~/vim_setting/terminator_setting/cosmic_peaks-wallpaper-1600x900.jpg
+  [[default]] 
     background_darkness = 0.7
     background_type = image
     scroll_background = False
@@ -13,7 +12,6 @@
     use_theme_colors = True
   [[haven]]
     palette = "#86a9b4:#dc322f:#30a91b:#ffdc00:#268bd2:#8442c5:#2aa198:#eee8d5:#0c3c48:#cb4b16:#387290:#657b83:#5ab5b0:#6c71c4:#69a2ff:#fdf6e3"
-    background_image = ~/vim_setting/terminator_setting/cosmic_peaks-wallpaper-1600x900.jpg
     background_darkness = 0.68
     background_type = image
     use_system_font = False
