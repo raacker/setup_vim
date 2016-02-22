@@ -1,6 +1,7 @@
 #!/bin/bash
 
-echo "alias g11=\'g++ -std=c++11 -o\'" >> /etc/bash.bashrc
+echo " " >> /etc/bash.bashrc
+echo "alias g11='g++ -std=c++11 -o'" >> /etc/bash.bashrc
 
 apt-get install vim
 apt-get install scons 
