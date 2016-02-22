@@ -26,6 +26,8 @@ and **Run** run.sh with sudo.
 
 This script follows these commands
 
+echo "alias g11=\'g++ -std=c++11 -o\'" >> /etc/bash.bashrc
+
 apt-get install vim</br>
 apt-get install scons</br>
 apt-get install exuberant-ctags</br>
