@@ -3,10 +3,10 @@
 echo " " >> /etc/bash.bashrc
 echo "alias g11='g++ -std=c++11 -o'" >> /etc/bash.bashrc
 
-apt-get install vim
-apt-get install scons 
-apt-get install exuberant-ctags
-apt-get install g++
+apt-get -y install vim
+apt-get -y install scons 
+apt-get -y install exuberant-ctags
+apt-get -y install g++
 
 mv ./.vim ./.vimrc ./.themes ~/
 
