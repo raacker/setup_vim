@@ -13,6 +13,7 @@ fi
 apt-get -y install vim
 apt-get -y install scons 
 apt-get -y install g++
+apt-get -y install build-essential
 apt-get -y install exuberant-ctags
 
 cp ./.vim ./.vimrc ~/
