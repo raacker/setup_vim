@@ -2,7 +2,7 @@
 
 This is own linux setting of Linuxmint 17.3 cinnamon. 
 
-This repository includes **.vim, .vimrc, .themes**
+This repository includes **.vim, .vimrc **
 
 **Additional** 
  * terminator - change permission of terminator.sh to 700(chmod 700 terminator.sh) and run it
@@ -18,6 +18,7 @@ This repository includes **.vim, .vimrc, .themes**
 * AutoComplPop
 * taglist-plus
 * cvim
+* Lokaltog/powerline
 
 <h1>Works</h1>
 
@@ -33,7 +34,7 @@ apt-get install scons</br>
 apt-get install exuberant-ctags</br>
 apt-get install g++</br>
 
-mv ./.vim ./.vimrc ./themes ~/
+cp ./.vim ./.vimrc ~/
 
 git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
