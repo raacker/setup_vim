@@ -16,29 +16,15 @@ This repository includes **.vim, .vimrc **
 * rstacruz/sparkup
 * The-NERD-tree
 * AutoComplPop
-* taglist-plus
+* taglist-plus (temporary diabled)
 * cvim
 * Lokaltog/powerline
+* klen/python-mode
 
 <h1>Works</h1>
 
 First, change permission of run.sh to 700(only available for user) by chmod 700 run.sh</br>
 and **Run** run.sh with sudo.
-
-This script follows these commands
-
-echo "alias g11=\'g++ -std=c++11 -o\'" >> /etc/bash.bashrc
-
-apt-get install vim</br>
-apt-get install scons</br>
-apt-get install exuberant-ctags</br>
-apt-get install g++</br>
-
-cp ./.vim ./.vimrc ~/
-
-git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-
-vim +PluginInstall +qall
 
 <h1>Details</h1>
 NERD Tree is mapped on F7 and taglist is on F8
@@ -62,3 +48,4 @@ terminator : Best terminal ever. I mapped keys to dconf files</br>
 <h1>Resource from</h1>
 https://luckyyowu.tistory.com/308</br>
 https://dobest.io/install-vundle-and-nerdtree</br>
+https://unlogic.co.uk/2013/02/08/vim-as-a-python-ide</br>
