@@ -9,6 +9,7 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 
 Plugin 'gmarik/Vundle.vim'
+
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
 " plugin on GitHub repo
@@ -25,7 +26,10 @@ Plugin 'git://git.wincent.com/command-t.git'
 " Pass the path to set the runtimepath properly.
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 
+" Powerline
 Plugin 'Lokaltog/powerline', {'rtp': 'powerline/binding/vim'}
+
+Plugin 'klen/python-mode'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -91,6 +95,39 @@ au BufNewFile, BufRead *.py
 	set foldmethod=indent
 	set foldlevel=99
 	set encoding=utf-8
+	" Powerline setup
+	set guifont=DejaVu\ Sans\ Mono\ for\ Powerline\ 9
+	set laststatus=2
+
+	let g:pymode_rope = 0
+	
+	" Documentation
+	let g:pymode_doc = 1
+	let g:pymode_doc_key = 'K'
+	
+	" Linting
+	let g:pymode_lint = 1
+	let g:pymode_lint_checker = "pyflakes,pep8"
+
+	" Auto check on save
+	let g:pymode_lint_write = 1
+
+	" Support virtualenv
+	let g:pymode_virtualenv = 1
+
+	" Enable breakpoints plugins
+	let g:pymode_breakpoint = 1
+	let g:pymode_breakpoint_bing = '<leader>b'
+
+	" Syntax highlighting
+	let g:pymode_syntax = 1
+	let g:pymode_syntax_all = 1
+	let g:pymode_syntax_indent_errors = g:pymode_syntax_all
+	let g:pymode_syntax_space_errors = g:pymode_syntax_all
+
+	" Autofold disable
+	let g:pymode_folding = 0
+	
 
 au BufNewFile, BufRead *.js, *.html, *.css 
 	set ts=2 

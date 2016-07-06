@@ -4,7 +4,8 @@ if [ $1 == "mint" ]; then
 	echo " " >> /etc/bash.bashrc
 	echo "alias g11='g++ -std=c++11 -o'" >> /etc/bash.bashrc	
 elif [ $1 == "ubuntu" ]; then
-	echo "ubuntu"
+	echo " " >> ~/.bashrc
+	echo "alias g11='g++ -std=c++11 -o'" >> ~/.bashrc	
 else
 	echo "none of linux version"
 fi
