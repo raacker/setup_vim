@@ -15,7 +15,7 @@
     background_darkness = 0.68
     background_type = image
     use_system_font = False
-    cursor_color = "#484848"
+    cursor_color = "#9C9C9C"
     scroll_background = False
     font = Monospace 11
     foreground_color = "#ffffff"

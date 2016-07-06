@@ -25,6 +25,8 @@ Plugin 'git://git.wincent.com/command-t.git'
 " Pass the path to set the runtimepath properly.
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 
+Plugin 'Lokaltog/powerline', {'rtp': 'powerline/binding/vim'}
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 
@@ -75,9 +77,26 @@ set cindent
 set smartindent
 syntax on
 colorscheme desert
-set ts=4
-set sts=4
-set sw=4
+
+au BufNewFile, BufRead *.c, *.cpp
+	set ts=4
+	set sts=4
+	set sw=4
+
+au BufNewFile, BufRead *.py
+	set ts=4
+	set sts=4
+	set sw=4
+	set textwidth=79
+	set foldmethod=indent
+	set foldlevel=99
+	set encoding=utf-8
+
+au BufNewFile, BufRead *.js, *.html, *.css 
+	set ts=2 
+	set sts=2 
+	set sw=2
+
 set hlsearch
 set ignorecase
 set mouse+=a
