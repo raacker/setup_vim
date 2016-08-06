@@ -128,12 +128,6 @@ au BufNewFile, BufRead *.py
 	" Autofold disable
 	let g:pymode_folding = 0
 	
-
-au BufNewFile, BufRead *.js, *.html, *.css 
-	set ts=2 
-	set sts=2 
-	set sw=2
-
 set hlsearch
 set ignorecase
 set mouse+=a
