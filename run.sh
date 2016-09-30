@@ -24,9 +24,11 @@ apt-get -y install vim
 apt-get -y install scons 
 apt-get -y install g++
 apt-get -y install build-essential
-apt-get -y install exuberant-ctags
 
-cp ./.vim ./.vimrc ~/
+git clone https://github.com/universal-ctags/ctags
+cd ctags && ./autogen.sh
+
+cp ./.vim ./.vimrc ./.ctags ~/
 
 git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
