@@ -82,6 +82,8 @@ set smartindent
 syntax on
 colorscheme desert
 
+au filetype c nnoremap <buffer> <slient> <C-]> :YcmCompleter GoTo<cr>
+
 au BufNewFile, BufRead *.c, *.cpp
 	set ts=4
 	set sts=4
