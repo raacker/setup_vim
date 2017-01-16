@@ -25,6 +25,9 @@ apt-get -y install scons
 apt-get -y install g++
 apt-get -y install build-essential
 
+git config --global core.editor "vim"
+export GIT_EDITOR=vim
+
 git clone https://github.com/universal-ctags/ctags
 cd ctags && ./autogen.sh
 
