@@ -30,6 +30,7 @@ export GIT_EDITOR=vim
 
 git clone https://github.com/universal-ctags/ctags
 cd ctags && ./autogen.sh
+cd ..
 
 cp ./.vim ./.vimrc ./.ctags ~/
 
