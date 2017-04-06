@@ -1,24 +1,6 @@
 #!/bin/bash
 
-if [ $1 == "mint" ]; then
-	echo " " >> /etc/bash.bashrc
-	echo "alias g11='g++ -std=c++11 -o'" >> /etc/bash.bashrc	
-elif [ $1 == "ubuntu" ]; then
-	echo " " >> ~/.bashrc
-	echo "alias g11='g++ -std=c++11 -o'" >> ~/.bashrc	
-else
-	echo "none of linux version"
-fi
-
-if [ $2 == "python" ]; then
-	apt-get install python-dev
-	apt-get install python-pip
-	pip install --upgrade pip
-	if [ -f /usr/bin/pip ]; then
-		rm -rf /usr/bin/pip
-	fi
-	sudo ln -s /usr/local/bin/pip /usr/bin/pip
-fi
+echo "alias g11='g++ -std=c++11 -o'" >> ~/.bashrc	
 
 apt-get -y install vim
 apt-get -y install scons 
