@@ -1,6 +1,4 @@
-#Linuxmint 17.3 Vim Setting
-
-This is own linux setting of Linuxmint 17.3 cinnamon. 
+# setup_vim
 
 This repository includes **.vim, .vimrc **
 
@@ -21,7 +19,7 @@ This repository includes **.vim, .vimrc **
 * Lokaltog/powerline
 * klen/python-mode
 
-<h1>Works</h1>
+<h1>Run</h1>
 
 First, change permission of run.sh to 700(only available for user) by chmod 700 run.sh</br>
 and **Run** run.sh with sudo.
