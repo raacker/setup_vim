@@ -1,7 +1,7 @@
 #!/bin/bash
 
-apt-get install terminator
-apt-get install dconf-cli
+apt-get install -y terminator
+apt-get install -y dconf-cli
 
 mkdir ~/.config/terminator
 mv ./config ~/.config/terminator/
