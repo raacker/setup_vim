@@ -43,6 +43,25 @@ terminator : Best terminal ever. I mapped keys to dconf files</br>
 **i**: open in bottom side(vertical way)</br>
 **s** : open in right side(horizontal way)</br>
 
+<h1>git branch on terminal</h1>
+# Please add this in bashrc
+# Add git branch if its present to PS1
+"""
+parse_git_branch() {
+ git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
+}
+if [ "$color_prompt" = yes ]; then
+    if [[ ${EUID} == 0 ]] ; then
+        PS1='${debian_chroot:+($debian_chroot)}\[\033[01;31m\]\h\[\033[01;34m\] \W \$\[\033[00m\] '
+    else
+        PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\] \[\033[01;34m\]\w \[\033[01;31m\]$(parse_git_branch)\[\033[01;34m\]\$\[\033[00m\] '
+    fi
+else
+    PS1='${debian_chroot:+($debian_chroot)}\u@\h \w $(parse_git_branch)\$ '
+fi
+unset color_prompt force_color_prompt
+"""
+
 <h1>Resource from</h1>
 https://luckyyowu.tistory.com/308</br>
 https://dobest.io/install-vundle-and-nerdtree</br>

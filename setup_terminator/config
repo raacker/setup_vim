@@ -4,7 +4,7 @@
   new_window = <Primary><Shift>s
 [profiles]
   [[default]]  
-    palette = "#86a9b4:#dc322f:#30a91b:#ffdc00:#268bd2:#8442c5:#2aa198:#eee8d5:#0c3c48:#cb4b16:#387290:#657b83:#5ab5b0:#6c71c4:#69a2ff:#fdf6e3"
+    palette = "#363748:#dc322f:#30a91b:#ffdc00:#268bd2:#8442c5:#2aa198:#eee8d5:#3f6e7a:#cb4b16:#387290:#657b83:#5ab5b0:#6c71c4:#69a2ff:#fdf6e3"
     login_shell = True
 		background_darkness = 0.78
     background_type = image
