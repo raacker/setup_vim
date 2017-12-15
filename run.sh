@@ -1,5 +1,10 @@
 #!/bin/bash
 
+if [[ $EUID -ne 0 ]]; then
+   echo "Please run with sudo"
+   exit 1
+fi
+
 echo "alias g11='g++ -std=c++11 -o'" >> ~/.bashrc	
 
 apt-get -y install vim
@@ -26,6 +31,11 @@ unset color_prompt force_color_prompt
 """
 git config --global core.editor "vim"
 export GIT_EDITOR=vim
+
+cd setup_terminator
+chmod 700 terminator.sh
+sudo ./terminator.sh
+cd ..
 
 git clone https://github.com/universal-ctags/ctags
 cd ctags && ./autogen.sh
