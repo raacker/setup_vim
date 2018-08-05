@@ -100,3 +100,5 @@ source $ZSH/oh-my-zsh.sh
 #
 alias python='python3'
 alias pip='pip3'
+alias notebook='jupyter-notebook'
+alias runblog='cd /home/haven/raacker.github.io && sudo jekyll serve -b /'
